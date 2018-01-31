@@ -1,0 +1,171 @@
+/*This resets all margins for the page*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo', sans-serif;
+}
+
+/*Sets all the the headings to a specified text*/
+h1, h2, h3, h4, h5, h6, nav > ul > a >li {
+    
+    font-family: 'Codystar', cursive;
+}
+
+
+/*This is all the styles for the header element and all of its childeren*/
+
+header > .logo {
+    flex-grow: 1;
+    height: 4em;
+    margin-right: .5em;
+    background: black;
+}
+
+header {
+    display: flex;
+    background: red;
+    width: 100%;
+}
+
+header > * {
+    background: blue;
+}
+
+header > h1 {
+    flex-grow: 1;
+    background: green;
+    text-align: center;
+    font-size: 3em;
+    margin: 0 .3em;
+}
+
+header > h1 > a {
+    color: black;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+header > h1 > a:visited {
+
+    color: #222;
+}
+
+/*This is the styles for the navigation Specifically*/
+
+header > nav {
+    flex-grow: 3;
+    position: relative;
+    bottom:  .5em;
+    background: black;
+    width: 75%;
+    margin: 0 1em 1em 0;
+}
+
+nav {
+    background: black;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > a {
+    flex-grow: 1;
+    width: 24.7%;
+    list-style: none;
+    background: yellow;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 1em 0;
+    font-weight: 600;
+}
+
+nav > ul > a:hover {
+    background: green;
+    color: black;
+}
+
+nav > ul > a:visited {
+
+    color: #222;
+}
+
+nav > ul > a > li {
+
+
+    font-size: 1.3em;
+
+}
+
+/*main product styles*/
+
+.main-product {
+    width: 35%;
+    margin: 0 auto;
+    padding: 5% 31%;
+
+}
+
+.product-description {
+
+    width: 75%;
+
+    margin: 1em auto;
+
+    font-size: 1.5em;
+
+    background: #f34f00;
+    border: 1px dotted white;
+
+}
+
+/*Main styles*/
+
+article {
+    width: 100%;
+    background: blue;
+    padding-bottom: .2em;
+}
+
+main {
+    width: 100%;
+    background: black;
+}
+
+/*Footer styles*/
+
+footer {
+    background: yellow;
+    text-align: center;
+    padding: 5%;
+    height: 1em;
+}
+/*flex container*/
+
+.container {
+    
+    display: flex;
+    background: red;
+}
+
+.container > .frame{
+	flex-grow: 1;
+    background: green;
+}
+
+.container > ul{
+	flex-grow: 3;
+    background: yellow;
+}
+
+.container > ul > li {
+    list-style: none;
+}
+/*page Data*/
+
+body, header, main, {
+    height: 100%;
+    width: 100%;
+}
