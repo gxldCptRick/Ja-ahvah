@@ -172,7 +172,8 @@ footer {
 	flex-grow: 2;
     margin: 1em;
 }
-.sub {
+.sub > p {
+    margin: auto;
     font-size: 1.5em;
 }
 /*page Data*/
