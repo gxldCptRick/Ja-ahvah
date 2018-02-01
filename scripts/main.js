@@ -10,7 +10,7 @@ function plusSlides(n) {
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
-}
+} 
 //shows the slides
 function showSlides(n) {
   var i;
