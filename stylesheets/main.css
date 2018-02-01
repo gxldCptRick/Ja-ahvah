@@ -168,13 +168,12 @@ footer {
 	flex-grow: 1;
 }
 
-.container > ul{
-	flex-grow: 3;
-    background: #a5be00;
+.container > .sub{
+	flex-grow: 2;
+    margin: 1em;
 }
-
-.container > ul > li {
-    list-style: none;
+.sub {
+    font-size: 1.5em;
 }
 /*page Data*/
 
