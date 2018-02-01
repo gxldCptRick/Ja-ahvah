@@ -168,7 +168,6 @@ footer {
     background: #274c00;
     text-align: center;
     padding: 5%;
-    height: 1em;
 }
 
 /*flex container*/
@@ -348,8 +347,21 @@ article {
 
 .bar-graph {
     border-radius: .2em;
-    width: 75%;
-    height: 75%;
     margin: 0 12.5%;
     background: #274c00;
+    width: 75%;
+}
+
+/* Text Block Styles */
+
+.text-block {
+    
+    background: #274c00;
+    margin: 0 auto;
+    width: 75%;
+    padding: 1em;
+    text-indent: 2em;
+    font-size: 1.5em;
+    
+    
 }
