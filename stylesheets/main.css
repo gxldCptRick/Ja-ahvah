@@ -105,12 +105,12 @@ nav > ul > a {
 }
 
 nav > ul > a:first-child {
-     border-left: 1px solid black;
+    border-left: 1px solid black;
     border-radius: 1em 0 0 1em;
 }
 
 nav > ul > a:last-child {
-     border-right: 1px solid black;
+    border-right: 1px solid black;
     border-radius: 0 1em 1em 0;
 
 }
@@ -180,14 +180,14 @@ footer {
 }
 
 .container:first-child {
-    
+
     border-radius: 1em 1em 0 0;
 }
 
 .container:last-child {
 
     border-radius: 0 0 1em 1em;
-    
+
 }
 
 
@@ -355,13 +355,38 @@ article {
 /* Text Block Styles */
 
 .text-block {
-    
+
     background: #274c00;
     margin: 0 auto;
     width: 75%;
     padding: 1em;
     text-indent: 2em;
     font-size: 1.5em;
-    
-    
+
+
+}
+
+/* Grid Templates */
+
+.grid {
+
+    display: grid;
+    grid-column-gap: 4em;
+    grid-template-columns: 50% 50%;
+    background-color: #274c00;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.grid-item:first-child, .grid-item:nth-child(2) {
+	border-bottom: 1px solid red;
+}
+
+.grid-item {
+    margin: 1em auto;
+    padding: 1em;
+    width: 25em;
+    background: black;
+    text-align: center;
 }
