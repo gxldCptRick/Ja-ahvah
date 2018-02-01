@@ -34,7 +34,7 @@ nav > ul > a > li {
 /*This is all the styles for the header element and all of its childeren*/
 
 header > .logo {
-    flex-grow: 2;
+    flex-grow: 1;
     height: 4em;
     margin-right: .5em;
 }
@@ -55,11 +55,11 @@ header > * {
 
 header > h1 {
     border: 1px solid black;
-    flex-grow: 1;
+    flex-grow: 2;
     text-align: center;
     background: #382718;
     font-size: 2em;
-    margin: 0 .3em;
+    margin: 0 auto;
     border-radius: 1em;
 }
 
@@ -344,3 +344,12 @@ article {
     }
 }
 
+/* Bar Graph Styles */
+
+.bar-graph {
+    border-radius: .2em;
+    width: 75%;
+    height: 75%;
+    margin: 0 12.5%;
+    background: #274c00;
+}
