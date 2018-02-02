@@ -382,14 +382,14 @@ article {
 }
 
 .grid-item:first-child, .grid-item:nth-child(2) {
-	border-bottom: 1px solid red;
+	border-bottom: .5em solid #000;
 }
 
 .grid-item {
     margin: 1em auto;
     padding: 1em;
     width: 25em;
-    background: black;
+    background: #382718;
     text-align: center;
 }
 
