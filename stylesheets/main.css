@@ -79,7 +79,6 @@ header > nav {
     position: relative;
     bottom: .5em;
     background: #274c00;
-    width: 75%;
     margin: 1em 1em 0;
 }
 
@@ -347,9 +346,9 @@ article {
 
 .bar-graph {
     border-radius: .2em;
-    margin: 0 12.5%;
+    margin: 0 30%;
     background: #274c00;
-    width: 75%;
+    width: 40%;
 }
 
 /* Text Block Styles */
