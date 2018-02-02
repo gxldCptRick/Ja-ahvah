@@ -1,5 +1,4 @@
 /*Color Scheme*/
-
 /*
     Primary #274c00
     Secondary and Text#a5be00
@@ -388,4 +387,12 @@ article {
     width: 25em;
     background: black;
     text-align: center;
+}
+
+/*framming styles*/
+
+.frame > img.logo {
+    
+    width: 25%;
+    
 }
