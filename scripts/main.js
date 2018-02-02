@@ -7,4 +7,6 @@ $(document).ready(function(){
   });
   
   
+  $(".grid-item").draggable();
+  
 });
