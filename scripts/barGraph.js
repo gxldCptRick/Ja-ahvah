@@ -1,7 +1,7 @@
 var canvas = document.getElementById("main-bar-graph");
 var context = canvas.getContext("2d");
-const graphWidth = canvas.width * .65;
-const graphHeight = canvas.height * .65;
+const graphWidth = canvas.width * .55;
+const graphHeight = canvas.height * .55;
 const xOffset = canvas.width * .34;
 const yOffset = canvas.height * .125; 
 
@@ -62,10 +62,10 @@ function drawLabels(){
     
     context.fillStyle = "black";
     
-    context.fillText("$$$", xOffset + (graphWidth * .1), yOffset * 2, canvas.width);
+    context.fillText("$$$", xOffset + (graphWidth * .1), yOffset * 1.8, canvas.width);
     
     context.fillText("\u00a3", xOffset + (graphWidth * .45) + BarValue.prototype.WIDTH, 
-                     graphHeight - theirValue.height + yOffset, canvas.width);
+                     graphHeight - theirValue.height + (yOffset * .96), canvas.width);
     
     let bottomLabelY = graphHeight + yOffset + yOffset * .4;
     context.fillText("Our Price", xOffset + (graphWidth * .03), bottomLabelY);
