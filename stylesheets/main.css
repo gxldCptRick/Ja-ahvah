@@ -16,6 +16,10 @@
     color: #a5be00;
 }
 
+body{
+    background: #274c00;
+}
+
 /*Sets all the the headings to a specified text*/
 
 h1,
@@ -175,15 +179,17 @@ footer {
     display: flex;
     background: #274c00;
     flex-wrap: wrap;
+    
 }
 
 .container:first-child {
-
+    margin-top: 2em;
     border-radius: 1em 1em 0 0;
 }
 
 .container:last-child {
 
+    margin-bottom: 2em;
     border-radius: 0 0 1em 1em;
 
 }
