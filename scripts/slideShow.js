@@ -31,3 +31,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+$(document).ready(function(){
+  setInterval(nextSlide, 4000);
+});
+
+function nextSlide(){
+  plusSlides(1);
+}
